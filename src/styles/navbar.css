@@ -1,0 +1,18 @@
+.logo-img {
+  width: 60px;
+  height: 50px;
+}
+.navbar .button {
+  background: linear-gradient(35deg, skyblue, rgb(26, 26, 109));
+  color: white;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.navbar .navbar-link {
+  text-decoration: none;
+  color: white;
+}
+.navbar .navbar-link:hover {
+  color: gray;
+}

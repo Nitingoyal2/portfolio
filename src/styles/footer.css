@@ -1,0 +1,21 @@
+.footer-wrapper {
+  color: white;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  .container {
+    .footer-wrapper-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .footer-wrapper-row-col {
+        img {
+          width: 80px;
+          height: 60px;
+        }
+      }
+      .footer-wrapper-row-col2 {
+        text-align: end;
+      }
+    }
+  }
+}

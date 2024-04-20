@@ -1,0 +1,19 @@
+.home-wrapper {
+  color: white;
+  h4 {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  .home-wrapper-buttons {
+    gap: 20px;
+  }
+  button {
+    background: linear-gradient(35deg, skyblue, rgb(26, 26, 109));
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+}

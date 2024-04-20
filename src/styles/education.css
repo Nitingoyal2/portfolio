@@ -1,0 +1,31 @@
+.education-wrapper {
+  color: white;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  Container {
+    border-bottom: 2px solid gray;
+  }
+  .education-wrapper-header {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .education-skill-wrapper {
+    display: flex;
+    gap: 40px;
+    margin: 40px 0px;
+    .education-skill-wrapper-col {
+      box-shadow: 0px 0px 16px 5px rgb(242, 240, 240);
+      border-radius: 10px;
+      padding: 20px 30px;
+      font-weight: 500;
+      .name {
+        color: #6a9ec9;
+        font-size: 1.5rem;
+      }
+      .year,
+      university {
+        font-size: 1rem;
+      }
+    }
+  }
+}

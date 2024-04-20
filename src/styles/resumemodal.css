@@ -1,0 +1,17 @@
+.modal-content .modal-header {
+  border: none;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.editqrcode-modal-btn-close {
+  position: absolute;
+  background-color: black;
+  top: -23px;
+  right: -20px;
+  color: white;
+  border-radius: 9999px;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
