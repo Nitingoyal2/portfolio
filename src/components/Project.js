@@ -18,7 +18,7 @@ const Project = () => {
                             <p className='project-number'>Project 1</p>
                             <p className='project-name'>Shark Tank Website</p>
                             <p className='project-description'>Shark Tank is a Investing Platform Website where people Find Investors for taking investments for their Business or startups and Investors Find People or business to invest in their business. they can contact each other for Deal. Technologies used - HTML, CSS, Bootstrap, JavaScript, JQUERY, SQL, Node.js, Ajax, Angular. </p>
-                            <Button className='button'>View Project</Button>
+                            <a href="https://github.com/Nitingoyal2/shark_tank"><Button className='button'>View Project</Button></a>
                         </Col>
 
                     </Row>
@@ -27,7 +27,7 @@ const Project = () => {
                             <p className='project-number'>Project 2</p>
                             <p className='project-name'>Music Mix Website</p>
                             <p className='project-description'>At Music Mix, we're passionate about music, and our platform is designed to cater to all your musical needs, whether you're a casual listener or a hardcore music aficionado. With a vast collection of songs spanning diverse genres, eras, and cultures, there's something for everyone here.A music website serves as a digital platform for music enthusiasts to explore, discover, and enjoy various genres, artists, albums, and tracks.</p>
-                            <Button className='button'>View Project</Button>
+                            <a href="https://github.com/Nitingoyal2/music_mix"><Button className='button'>View Project</Button></a>
                         </Col>
                         <Col className='project-wrapper-header-row-row-image'>
                             <Image src={musicmix} thumbnail />

@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import resume from "../assests/resume/resume (1).pdf"
 import CloseIcon from '@mui/icons-material/Close';
