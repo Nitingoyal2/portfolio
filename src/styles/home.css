@@ -57,15 +57,19 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .home-wrapper {
-    color: white;
     font-family: "Montserrat";
+    color: white;
+    padding: 20px 0px 20px 0px;
     h4 {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
     h1 {
-      font-size: 3.5rem;
+      font-size: 2rem;
     }
     .home-wrapper-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px 0px;
       gap: 20px;
     }
     button {
@@ -90,6 +94,10 @@
       font-size: 5rem;
     }
     .home-wrapper-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px 0px;
+      gap: 20px;
       gap: 20px;
     }
     button {
@@ -114,6 +122,10 @@
       font-size: 5rem;
     }
     .home-wrapper-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px 0px;
+      gap: 20px;
       gap: 20px;
     }
     button {

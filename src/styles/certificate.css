@@ -64,24 +64,25 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .certificate-wrapper {
     color: white;
-    margin: 10px 0px;
-    padding: 10px 0px;
+    padding: 20px 0px;
     .certificate-wrapper-wrapper {
       text-align: center;
-      font-size: 2.5rem;
+      font-size: 2rem;
+      margin-bottom: 0px;
     }
     .certificate-wrapper-row {
-      margin: 40px 0px;
       display: flex;
       flex-direction: column;
-      gap: 30px;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 20px 0px;
       .certificate-wrapper-row-col {
         box-shadow: 0px 0px 16px 5px rgb(242, 240, 240);
         border-radius: 10px;
         padding: 20px 30px;
         font-weight: 500;
         color: #6a9ec9;
-        font-size: 1rem;
+        font-size: 0.7rem;
         display: flex;
         align-items: center;
         gap: 50px;

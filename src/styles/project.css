@@ -112,8 +112,7 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .project-wrapper {
     color: white;
-    margin: 10px 0px;
-    padding: 10px 0px;
+    padding: 20px 0px;
     .project-wrapper-header {
       font-size: 2.5rem;
       text-align: center;
@@ -121,28 +120,36 @@
     .project-wrapper-header-row {
       display: flex;
       flex-direction: column;
-      gap: 100px;
+      flex-wrap: wrap;
+      gap: 20px;
+      .project-wrapper-header-row-row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
       .project-wrapper-header-row-row-image {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 20px 0px;
         img {
-          width: 350px;
-          height: 350px;
+          width: 200px;
+          height: 200px;
           object-fit: contain;
         }
       }
       .project-wrapper-header-row-row-description {
+        margin-top: 10px;
         .project-number {
           font-size: 1.5rem;
           font-weight: 500;
         }
         .project-name {
           color: #6a9ec9;
-          font-size: 1.5rem;
+          font-size: 1.3rem;
         }
         .project-description {
-          font-size: 1rem;
+          font-size: 0.8rem;
         }
         .button {
           background: linear-gradient(35deg, skyblue, rgb(26, 26, 109));
