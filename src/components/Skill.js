@@ -13,7 +13,7 @@ const Skill = () => {
             <Container>
                 <p className='skill-wrapper-header'>Skills</p>
                 <div className="technical-skill-wrapper">
-                    <p className='technical-skill-wrapper-header'>Technicall Skills</p>
+                    <p className='technical-skill-wrapper-header'>Technical Skills</p>
                     <Row className='my-3'>
                         <Col className='technical-skill-wrapper-icon-image'>
                             <img src={html} alt="" />
