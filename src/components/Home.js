@@ -11,12 +11,12 @@ const Home = () => {
 
   return (
     <>
-      <div className='home-wrapper py-5' id='home'>
+      <div className='home-wrapper ' id='home'>
         <Container>
           <h4 className='py-1'>Hi, My name is</h4>
           <h1 className='py-1'>NITIN,</h1>
           <h1 className='py-1'> A WEB DEVELOPER.</h1>
-          <div className="d-flex py-5 home-wrapper-buttons" >
+          <div className="home-wrapper-buttons" >
 
             {/* <a href={resume} download className='navbar-link'><Button className='button' onClick={() => setModalShow(true)}>Resume</Button></a> */}
             <Button className='button' onClick={() => setModalShow(true)}>Resume</Button>

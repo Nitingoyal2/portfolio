@@ -1,19 +1,123 @@
-.home-wrapper {
-  color: white;
-  h4 {
-    font-size: 1.5rem;
-  }
-  h1 {
-    font-size: 5rem;
-  }
-  .home-wrapper-buttons {
-    gap: 20px;
-  }
-  button {
-    background: linear-gradient(35deg, skyblue, rgb(26, 26, 109));
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .home-wrapper {
+    font-family: "Montserrat";
     color: white;
-    border: none;
-    outline: none;
-    box-shadow: none;
+    padding: 20px 0px 20px 0px;
+    h4 {
+      font-size: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    .home-wrapper-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px 0px;
+      gap: 20px;
+    }
+    button {
+      background: linear-gradient(35deg, skyblue, rgb(26, 26, 109));
+      color: white;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .home-wrapper {
+    font-family: "Montserrat";
+    color: white;
+    h4 {
+      font-size: 1.5rem;
+    }
+    h1 {
+      font-size: 3.5rem;
+    }
+    .home-wrapper-buttons {
+      gap: 20px;
+    }
+    button {
+      background: linear-gradient(35deg, skyblue, rgb(26, 26, 109));
+      color: white;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .home-wrapper {
+    color: white;
+    font-family: "Montserrat";
+    h4 {
+      font-size: 1.5rem;
+    }
+    h1 {
+      font-size: 3.5rem;
+    }
+    .home-wrapper-buttons {
+      gap: 20px;
+    }
+    button {
+      background: linear-gradient(35deg, skyblue, rgb(26, 26, 109));
+      color: white;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .home-wrapper {
+    color: white;
+    font-family: "Montserrat";
+    h4 {
+      font-size: 1.5rem;
+    }
+    h1 {
+      font-size: 5rem;
+    }
+    .home-wrapper-buttons {
+      gap: 20px;
+    }
+    button {
+      background: linear-gradient(35deg, skyblue, rgb(26, 26, 109));
+      color: white;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .home-wrapper {
+    color: white;
+    font-family: "Montserrat";
+    h4 {
+      font-size: 1.5rem;
+    }
+    h1 {
+      font-size: 5rem;
+    }
+    .home-wrapper-buttons {
+      gap: 20px;
+    }
+    button {
+      background: linear-gradient(35deg, skyblue, rgb(26, 26, 109));
+      color: white;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
   }
 }

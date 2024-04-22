@@ -33,7 +33,7 @@ const Skill = () => {
                         </Col>
                         <Col className='technical-skill-wrapper-icon-image'>
                             <img src={reactjs} alt="" />
-                            <p className='my-2'>React JS</p>
+                            <p className='my-2'>ReactJS</p>
                         </Col>
                     </Row>
                 </div>
