@@ -13,8 +13,8 @@ const Navbarr = () => {
 
     return (
         <>
-            <Navbar bg="dark" data-bs-theme="dark" sticky="top">
-                <Container>
+            <Navbar bg="dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary" sticky="top">
+                <Container >
                     <Navbar.Brand href="#home">
                         <img
                             src={logo}
@@ -44,6 +44,7 @@ const Navbarr = () => {
 
                 </Container>
             </Navbar>
+
             <ResumeModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
