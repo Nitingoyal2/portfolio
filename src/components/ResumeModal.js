@@ -1,6 +1,6 @@
 import React from 'react'
 import Modal from 'react-bootstrap/Modal';
-import resume from "../assests/resume/resume (1).pdf"
+import resume from "../assests/resume/latest_resume.pdf"
 import CloseIcon from '@mui/icons-material/Close';
 import "../styles/resumemodal.css"
 
