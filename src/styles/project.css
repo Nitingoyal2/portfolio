@@ -217,42 +217,87 @@
     color: white;
     margin: 10px 0px;
     padding: 10px 0px;
-    .project-wrapper-header {
-      font-size: 2.5rem;
-      text-align: center;
-    }
-    .project-wrapper-header-row {
-      display: flex;
-      flex-direction: column;
-      gap: 100px;
-      .project-wrapper-header-row-row-image {
+    .projects {
+      margin-bottom: 20px;
+      .project-wrapper-header {
+        font-size: 2.5rem;
+        text-align: center;
+      }
+      .project-wrapper-header-row {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        img {
-          width: 350px;
-          height: 350px;
-          object-fit: contain;
+        flex-direction: column;
+        gap: 100px;
+        .project-wrapper-header-row-row-image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 350px;
+            height: 350px;
+            object-fit: contain;
+          }
+        }
+        .project-wrapper-header-row-row-description {
+          .project-number {
+            font-size: 1.5rem;
+            font-weight: 500;
+          }
+          .project-name {
+            color: #6a9ec9;
+            font-size: 1.5rem;
+          }
+          .project-description {
+            font-size: 1rem;
+          }
+          .button {
+            background: linear-gradient(35deg, skyblue, rgb(26, 26, 109));
+            color: white;
+            border: none;
+            outline: none;
+            box-shadow: none;
+          }
         }
       }
-      .project-wrapper-header-row-row-description {
-        .project-number {
-          font-size: 1.5rem;
-          font-weight: 500;
+    }
+    .web-page-design {
+      margin-bottom: 20px;
+      .project-wrapper-header {
+        font-size: 2.5rem;
+        text-align: center;
+      }
+      .project-wrapper-header-row {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        .project-wrapper-header-row-row-image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 350px;
+            height: 350px;
+            object-fit: contain;
+          }
         }
-        .project-name {
-          color: #6a9ec9;
-          font-size: 1.5rem;
-        }
-        .project-description {
-          font-size: 1rem;
-        }
-        .button {
-          background: linear-gradient(35deg, skyblue, rgb(26, 26, 109));
-          color: white;
-          border: none;
-          outline: none;
-          box-shadow: none;
+        .project-wrapper-header-row-row-description {
+          .project-number {
+            font-size: 1.5rem;
+            font-weight: 500;
+          }
+          .project-name {
+            color: #6a9ec9;
+            font-size: 1.5rem;
+          }
+          .project-description {
+            font-size: 1rem;
+          }
+          .button {
+            background: linear-gradient(35deg, skyblue, rgb(26, 26, 109));
+            color: white;
+            border: none;
+            outline: none;
+            box-shadow: none;
+          }
         }
       }
     }
