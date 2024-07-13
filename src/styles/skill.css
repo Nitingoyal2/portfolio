@@ -23,6 +23,7 @@
         justify-content: center;
         flex-wrap: wrap;
         img {
+          line-height: 100px;
           width: 40px;
           height: 40px;
         }
@@ -47,6 +48,7 @@
         img {
           width: 40px;
           height: 40px;
+          line-height: 100px;
         }
         p {
           font-size: 0.7rem;
@@ -83,6 +85,7 @@
         img {
           width: 40px;
           height: 40px;
+          line-height: 100px;
         }
         p {
           font-size: 0.7rem;
