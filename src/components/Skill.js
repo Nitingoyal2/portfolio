@@ -9,6 +9,8 @@ import reactjs from "../assests/images/atom.png";
 import microsoft from "../assests/images/office.png";
 import AntdImg from "../assests/images/antd.png";
 import ReduxImg from "../assests/images/redux.png";
+import RestImg from "../assests/images/rest.png";
+import GitImg from "../assests/images/github.jpeg";
 const Skill = () => {
   return (
     <div className="skill-wrapper" id="skills">
@@ -59,6 +61,14 @@ const Skill = () => {
             <Col className="other-skill-wrapper-icon-image">
               <img src={microsoft} alt="" />
               <p className="my-2">MS Office</p>
+            </Col>
+            <Col className="other-skill-wrapper-icon-image">
+              <img src={GitImg} alt="" />
+              <p className="my-2">GitHub </p>
+            </Col>
+            <Col className="other-skill-wrapper-icon-image">
+              <img src={RestImg} alt="" />
+              <p className="my-2">Restful API</p>
             </Col>
           </Row>
         </div>
