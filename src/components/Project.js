@@ -62,44 +62,6 @@ const Project = () => {
                 <Image src={musicmix} thumbnail />
               </Col>
             </Row>
-            <Row className="project-wrapper-header-row-row">
-              {/* <Col className="project-wrapper-header-row-row-image">
-                <Image src={sharktank} thumbnail />
-              </Col> */}
-              <Col className="project-wrapper-header-row-row-description">
-                <p className="project-number">Project 3</p>
-                <p className="project-name">
-                  (Admin Panel) <span>Live Project</span>
-                </p>
-
-                <p className="project-description">
-                  <span style={{ color: " #6a9ec9" }}>Technologies used </span>-
-                  HTML, CSS, JavaScript, ReactJS, Ant Design (Antd), Redux,
-                  Formik.
-                </p>
-              </Col>
-            </Row>
-            <Row className="project-wrapper-header-row-row">
-              <Col className="project-wrapper-header-row-row-description">
-                <p className="project-number">Project 4</p>
-                <p className="project-name">
-                  ( Dating App ) <span>Live Project</span>{" "}
-                </p>
-                <p className="project-description">
-                  Dating App is a modern and user-friendly platform designed to
-                  connect singles based on their interests, preferences, and
-                  location. Whether users are looking for casual dates,
-                  meaningful relationships, or friendships, Milan provides a
-                  seamless experience to meet new people. The app features a
-                  sleek and intuitive user interface that prioritizes user
-                  experience and engagement.
-                  <br />
-                  <span style={{ color: " #6a9ec9" }}>Technologies used </span>-
-                  HTML, CSS, JavaScript, ReactJS, Ant Design (Antd), Redux,
-                  Formik.
-                </p>
-              </Col>
-            </Row>
           </Row>
         </div>
         <div className="web-page-design">
